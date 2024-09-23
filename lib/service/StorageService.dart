@@ -129,7 +129,7 @@ class StorageService {
       // We didn't ask for permission yet or the permission has been denied before but not permanently.
       if (await Permission.storage.request().isGranted) {
         print("PERMISSION GRANTED");
-        return true; 
+        return true;
       } else {
         print("PERMISSION DENIED");
         return true;
